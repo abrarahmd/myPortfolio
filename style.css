@@ -159,7 +159,8 @@ main{
 #home .home-row p span{
     border-bottom: 4px solid var(--themeColor);
 }
-#home .home-row a{
+
+#home .home-row .resume-link{
     padding: 20px 15px;
     font-size: large;
     font-weight: 600;
@@ -170,9 +171,26 @@ main{
     letter-spacing: 2px;
     color: whitesmoke;
     position: absolute;
-    margin: 10% 35%;
+    margin: 4% 0%;
 }
-#home .home-row a:hover{
+#home .home-row .cv-link{
+    padding: 20px 15px;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    margin: 4% 11%;
+}
+#home .home-row .cv-link:hover{
+    background-color: var(--textColor);
+    color: whitesmoke;
+}
+#home .home-row .resume-link:hover{
     background-color: var(--textColor);
     color: whitesmoke;
 }
