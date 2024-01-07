@@ -729,36 +729,35 @@ main{
 
 @media only screen and (max-width: 510px) {
     .skill-info img {
-        width: 300px; 
+        width: 250px; 
         height: auto; 
     }
-
-
     #about .about-col .info-col{
         flex-basis: 70%;
-        margin: 50px;
+        margin: 0px;
     }
     #about .about-col .info-col h2{
         color: var(--themeColor);
         font-weight: 700;
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing: 0.5px;
         margin-top: -10px;
     }
     #about .about-col .info-col p{
         color: var(--textColor);
-        font-size: 15px;
+        font-size: 9px;
         letter-spacing: 0.5px;
         font-style: italic;
     }
     #about .about-col .info-col .icon-list-col{
         display: flex;
-        margin-top: 20px;
-        gap: 40px;
+        margin-top: 0px;
+        gap: 10px;
     }
     #about .about-col .info-col .icon-list-col .icon-list ul li{
         list-style: none;
         margin: 15px 0;
+        font-size: 10px;
     }
     #about .about-col .info-col .icon-list-col .icon-list ul li i{
         color: var(--themeColor);
@@ -768,5 +767,77 @@ main{
         font-weight: 500;
         font-size: 14px;
     }
-}
 
+    #home .home-row .cv-link{
+        padding: 20px 15px;
+        font-size: large;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: none;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        position: absolute;
+        margin: 25% 0%;
+    }
+    #home .home-row .resume-link{
+        padding: 20px 15px;
+        font-size: large;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: none;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        position: absolute;
+        margin: 4% 0%;
+    }
+
+    #projects .proj-row .proj-item .proj-img img{
+        width: 90%;
+        border-radius: 0px;
+    }
+    #projects .proj-row .proj-item .proj-info{
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 90%;
+        height: 100%;
+        background-color: var(--themeColor);
+        padding: 0 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transform: scale(0);
+        transition: 0;
+        border-radius: 10px;
+        visibility: hidden;
+    }
+    #projects .proj-row .proj-item:hover .proj-info{
+        transform: scale(1);
+        visibility: visible;
+    }
+
+    #projects .proj-row .proj-item .proj-info h4{
+        display: none;
+    }
+
+    #projects .proj-row .proj-item .proj-info a{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        width: 25px;
+        height: 25px;
+        background-color: var(--bgColor);
+        border-radius: 50%;
+        color: var(--themeColor);
+        line-height: 25px;
+        transition: 0.4s;
+    }
+
+}
