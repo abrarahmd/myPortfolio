@@ -732,5 +732,41 @@ main{
         width: 300px; 
         height: auto; 
     }
+
+
+    #about .about-col .info-col{
+        flex-basis: 70%;
+        margin: 50px;
+    }
+    #about .about-col .info-col h2{
+        color: var(--themeColor);
+        font-weight: 700;
+        font-size: 35px;
+        letter-spacing: 0.5px;
+        margin-top: -10px;
+    }
+    #about .about-col .info-col p{
+        color: var(--textColor);
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        font-style: italic;
+    }
+    #about .about-col .info-col .icon-list-col{
+        display: flex;
+        margin-top: 20px;
+        gap: 40px;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li{
+        list-style: none;
+        margin: 15px 0;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li i{
+        color: var(--themeColor);
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li i strong{
+        color: var(--sideBGColor);
+        font-weight: 500;
+        font-size: 14px;
+    }
 }
 
