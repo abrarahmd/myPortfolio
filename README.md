@@ -4,7 +4,7 @@ Abrar's Portfolio
 
 ## Credits
 
-This project includes code that I learned from a video tutorial. The tutorial was created by mattboldt, and you can find the original video [here]([insert_video_link](https://www.youtube.com/watch?v=7mVQZZrPePk)). I want to express my gratitude to mattboldt for creating and sharing the tutorial.
+This project includes code that I learned from a video tutorial. The tutorial was created by mattboldt, and you can find the original video [here]((https://www.youtube.com/watch?v=7mVQZZrPePk)). I want to express my gratitude to mattboldt for creating and sharing the tutorial.
 
 I've made modifications and adaptations to the original code to suit the needs of my portfolio.
 
