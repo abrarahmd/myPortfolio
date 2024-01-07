@@ -615,3 +615,71 @@ main{
     font-weight: 400;
     cursor: pointer;
 }
+
+/* Add this media query at the end of your CSS */
+
+@media only screen and (max-width: 1440px) {
+    main {
+        margin-left: 0;
+    }
+    #home {
+        padding: 50px;
+    }
+    header {
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        opacity: 1; 
+        transform: translateY(0); 
+        overflow-y: visible; 
+        background-color: var(--sideBGColor);
+    }
+    header.footer {
+        position: relative; 
+        bottom: auto; 
+    }
+
+    #resume
+    #contact {
+        padding: 50px 10px; 
+    }
+
+    #resume .resume-row,
+    #contact .contact-row {
+        flex-direction: column; /* Adjust the flex direction for smaller screens */
+    }
+
+    #resume .resume-row .resume-cols,
+    #contact .contact-row .contact-left,
+    #contact .contact-row .contact-right {
+        flex-basis: 100%; /* Make these sections full width on smaller screens */
+        min-width: 100%; /* Make these sections full width on smaller screens */
+    }
+
+    #home .home-row .cv-link{
+        padding: 20px 15px;
+        font-size: large;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: none;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        position: absolute;
+        margin: 4% 32%;
+    }
+    #home .home-row .resume-link{
+        padding: 20px 15px;
+        font-size: large;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: none;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        position: absolute;
+        margin: 4% 0%;
+    }
+}
