@@ -1,6 +1,4 @@
-# Project Name
-
-Abrar's Portfolio
+#Abrar's Portfolio
 
 ## Credits
 
